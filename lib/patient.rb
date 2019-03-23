@@ -15,9 +15,9 @@ class Patient
     appointment = Appointment.new(self, doctor, date)
   end 
   
-  # def appointments 
-  #   patient_appointments = Appointments.all.select{|appointment| appointment.patient = self}
-  # end 
+  def appointments 
+    patient_appointments = Appointments.all.select{|appointment| appointment.patient = self}
+  end 
   
   # def doctor
   # end 
