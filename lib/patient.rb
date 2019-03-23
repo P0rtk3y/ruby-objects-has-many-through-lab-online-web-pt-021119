@@ -20,7 +20,8 @@ class Patient
   end 
   
   def doctors
-    patient_doctors = Appointment.all.map{|appointment| appointment.doctor}.uniq
+    patient_doctors = Appointment.all.map{|appointment| appointment.doctor}
+    patient_doctors.uniq
     binding.pry
   end 
   
