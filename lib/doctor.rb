@@ -9,8 +9,6 @@ class Doctor
   end 
   
   def new_appointment(date, patient)
-    # patient = Patient.new(patient)
-    # appointment = Appointment.new(self, date, new_patient)
     binding.pry 
   end 
   
