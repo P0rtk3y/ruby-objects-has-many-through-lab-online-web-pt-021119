@@ -19,7 +19,7 @@ class Doctor
   end 
   
   def patients 
-    doctor_patients = Appointment.all.map{|appointment| appointment.patient}.uniq
+    doctor_patients = Appointment.all.map{|appointment| appointment.patient}
   end 
   
   def self.all 
