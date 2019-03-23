@@ -21,6 +21,7 @@ class Patient
   
   def doctor
     patient_doctors = Appointment.all.map{|appointment| appointmnet.doctor}.uniq
+    binding.pry
   end 
   
   def self.all 
