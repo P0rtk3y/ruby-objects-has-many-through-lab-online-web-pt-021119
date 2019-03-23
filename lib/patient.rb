@@ -21,7 +21,6 @@ class Patient
   
   def doctors
     patient_doctors = Appointment.all.map{|appointment| appointment.doctor}.uniq
-    patient_doctors.uniq
   end 
   
   def self.all 
