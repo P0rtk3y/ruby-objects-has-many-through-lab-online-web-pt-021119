@@ -1,3 +1,5 @@
+require 'pry'
+
 class Doctor
   @@all = []
   attr_reader :name 
