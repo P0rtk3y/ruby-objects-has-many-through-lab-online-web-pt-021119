@@ -20,7 +20,6 @@ class Doctor
   
   def patients 
     doctor_patients = self.appointments.map{|patient| appointment.patient} 
-    binding.pry
   end 
   
   def self.all 
