@@ -19,7 +19,7 @@ class Doctor
   end 
   
   def patients 
-    doctor_patients = Appointment.all.map{|patient
+    doctor_patients = self.appointments.map{|patient| 
   end 
   
   def self.all 
