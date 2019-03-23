@@ -19,7 +19,7 @@ class Doctor
   end 
   
   def patients 
-    doctor_patients = Appointment.all.map{|patient| appointment.patient} 
+    doctor_patients = appointments.map{|patient| appointment.patient} 
     binding.pry
   end 
   
